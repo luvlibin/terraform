@@ -3,6 +3,5 @@ terraform {
     bucket         = "libin-demos3bucket"
     key            = "ecs-vpc/terraform.tfstate"
     region         = "us-east-1"
-    dynamodb_table = "terraform"
   }
 }
